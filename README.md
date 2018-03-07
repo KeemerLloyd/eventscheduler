@@ -10,3 +10,4 @@ This App created through Expo XDE.
 Install JS Libraries:
 
 1. npm install --save react-native-ui-kitten
+2. npm install react-native-vector-icons --save
