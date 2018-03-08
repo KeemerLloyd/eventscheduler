@@ -3,6 +3,23 @@ import { scale } from "../../../utils/scale";
 import { Platform } from "react-native";
 
 export default RkStyleSheet.create(theme => ({
+  loginButton: {
+    justifyContent: "flex-end",
+    paddingHorizontal: 16,
+    paddingTop: 8,
+    paddingBottom: 10,
+    backgroundColor: "rgba(252,67,18, 0.8)",
+    borderRadius: 16
+  },
+  signuplogin: { paddingTop: 8, flexDirection: "row", paddingLeft: 26 },
+  input: {
+    borderColor: "black",
+    backgroundColor: "rgba(105,105,105, 0.2)",
+    paddingVertical: scale(6),
+    paddingHorizontal: scale(20),
+    borderStyle: "solid",
+    borderRadius: scale(25)
+  },
   lottie: {
     width: scale(200),
     height: scale(200),
@@ -15,10 +32,10 @@ export default RkStyleSheet.create(theme => ({
     flex: 1
   },
   buttonContainer: {
-    paddingTop: 20
+    paddingTop: scale(20)
   },
   titleContainer: {
-    flex: 2,
+    flex: 1.5,
     paddingVertical: scale(10),
     justifyContent: "center",
     alignItems: "center"
