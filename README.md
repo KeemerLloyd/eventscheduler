@@ -3,7 +3,7 @@ Event Scheduler Mobile App
 
 #OverView
 
-This App created through Expo XDE.
+This App is created through Expo XDE.
 
 
 #Set Up
