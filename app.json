@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "eventscheduler",
+    "name": "InviteUsApp",
     "description": "This project is event composer/scheduler.",
-    "slug": "eventscheduler",
+    "slug": "InviteUsApp",
     "privacy": "public",
     "sdkVersion": "25.0.0",
     "platforms": ["ios", "android"],
