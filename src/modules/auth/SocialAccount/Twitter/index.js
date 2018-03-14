@@ -1,7 +1,7 @@
 import React from "react";
 import AuthButton from "../../components/AuthButton";
 const Google = () => (
-  <AuthButton icon={"google"} bgColor={"#008744"} text={"Google"} />
+  <AuthButton icon={"twitter"} bgColor={"#00aced"} text={"Twitter"} />
 );
 
 export default Google;

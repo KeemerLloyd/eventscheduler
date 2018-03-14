@@ -2,9 +2,10 @@ import React from "react";
 import LoginForm from "../components/LoginForm";
 import SocialLogin from "../SocialAccount";
 import { View } from "react-native";
+import styles from "./styles";
 
 const EmailAccount = () => (
-  <View style={{ flex: 1, paddingBottom: 10 }}>
+  <View style={styles.container}>
     <LoginForm />
   </View>
 );
