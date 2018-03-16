@@ -14,3 +14,4 @@ Install JS Libraries:
 3. npm install --save prop-types
 4. npm install --save react-navigation
 5. npm install --save react-navigation-redux-helpers
+6. npm install --save firebase
